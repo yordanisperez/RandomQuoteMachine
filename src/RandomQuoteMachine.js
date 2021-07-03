@@ -57,7 +57,7 @@ function RandomQuoteMachine() {
         </div>
         <div id="action">
           <div>
-            <a id="tweet-quote" href={urlTweet+encodeURIComponent('"' + loadedQuotes[randomQuote] + '" ' + loadedQuotesAutor[randomQuote])}>
+            <a id="tweet-quote" target="_blank" href={urlTweet+encodeURIComponent('"' + loadedQuotes[randomQuote] + '" ' + loadedQuotesAutor[randomQuote])}>
             <i className="fa fa-twitter"></i>
             </a>
           </div>
